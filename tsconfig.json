@@ -1,0 +1,24 @@
+{
+   "compilerOptions": {
+      "baseUrl": "./src",
+      "lib": ["dom", "es5", "es6", "es7", "es2017"],
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "sourceRoot": "src",
+      "typeRoots": [
+         "./node_modules/@types",
+         "./typings"
+      ],
+      "jsx": "react",
+   },
+   "exclude": [
+      "node_modules",
+      "build"
+   ]
+}

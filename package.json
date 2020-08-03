@@ -1,0 +1,32 @@
+{
+  "name": "pokeyball_threejs",
+  "version": "1.0.0",
+  "description": "Pokeyball made in Three.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --inline"
+  },
+  "author": "slevron",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-three-fiber": "^4.2.18",
+    "three": "^0.119.0",
+    "use-cannon": "^0.5.0",
+    "zustand": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "html-loader": "^1.1.0",
+    "html-webpack-injector": "^1.1.4",
+    "html-webpack-plugin": "^4.3.0",
+    "source-map-loader": "^1.0.1",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
